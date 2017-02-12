@@ -1,0 +1,25 @@
+{
+    "name": "phptype/array",
+    "description": "Array extension methods.",
+    "authors": [
+        {
+            "name": "Bilge",
+            "email": "bilge@scriptfusion.com"
+        }
+    ],
+    "require": {
+        "php": "^5.4|^7",
+        "scriptfusion/static-class": "^1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "ScriptFUSION\\Type\\": "src"
+        }
+    },
+    "scripts": {
+        "test": "phpunit -c test"
+    }
+}
